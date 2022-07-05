@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main-main function
- *
- * Description: prints _putchar
- *
- * Return:0(Success)
+ * main entry point
+ * return: void
  */
 
 int main(void)
@@ -20,5 +17,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }	
