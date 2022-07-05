@@ -1,20 +1,21 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * main - entry block
- * @void: no argument
- * Return: 0
- **/
+ * main-main function
+ *
+ * Return:End program
+ */
 int main(void)
 {
-	char holberton[] = "Holberton";
+	char string[8] = "_putchar";
+	int n = 0;
 
-	int c;
-
-	for (c = 0; c < 9; c++)
+	while (n < 8)
 	{
-		_putchar(holberton[c]);
+		_putchar(string[8]);
+		++n;
 	}
-	_putchar('\n');
-	return (0);
-}
+
+	_putchar(10);
+	return(0);
+}	
+
