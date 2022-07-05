@@ -3,8 +3,11 @@
 /**
  * main-main function
  *
- * Return:End program
+ * Description: prints _putchar
+ *
+ * Return:0(Success)
  */
+
 int main(void)
 {
 	_putchar('_');
