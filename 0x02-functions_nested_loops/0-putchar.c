@@ -1,21 +1,22 @@
+#include <string.h>
 #include "main.h"
-/**
- * main - main function
- *
- * Return: End program
- **/
-int main(void)
-{
-	char string[8] = "_putchar";
-	int n = 0;
-	
-	while (n < 8)
-	{
-		_putchar(string[n]);
-		++n;
-	}
 
-	_putchar(10);
+/**
+ *
+ * main - Entry point                                                    
+ *
+ * Return: Always 0 (Success)
+ **/
+
+int main(void)                                                     
+{
+	const char str[] = "_putchar\n";
+	int len = strlen(str); 
+	int i;
+
+	for (i = 0; i < len; i++)
+		_putchar(str[i]);
+	
 	return (0);
 
 }
