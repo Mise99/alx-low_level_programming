@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - main function
  *
@@ -18,4 +17,5 @@ int main(void)
 
 	_putchar(10);
 	return (0);
+
 }
